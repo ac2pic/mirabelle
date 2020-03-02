@@ -1,0 +1,698 @@
+{
+  "mira-battle-start": {
+    "frequency": "SOMETIMES",
+    "repeat": "REPEAT",
+    "condition": "party.alive.Mira && !tmp.common.passiveAttack",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "type": "SELECT_RANDOM",
+        "options": [
+          {
+            "0": " ",
+            "count": 3,
+            "weight": 1
+          }
+        ],
+        "0_0": [
+          {
+            "message": {
+              "en_US": "We've got enemies here? Very well."
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SMILE"
+            }
+          }
+        ],
+        "0_1": [
+          {
+            "message": {
+              "en_US": "Let's see if my combat arts land this time!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "AWESOME"
+            }
+          }
+        ],
+        "0_2": [
+          {
+            "message": {
+              "en_US": "Let us take care of this swiftly."
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SMILE"
+            }
+          }
+        ]
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "type": "ENEMY_ATTACKS",
+      "battleStarted": true
+    }
+  },
+  "mira-cooldown-S": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "condition": "party.alive.Mira",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "type": "SELECT_RANDOM",
+        "options": [
+          {
+            "0": " ",
+            "count": 3,
+            "weight": 1
+          }
+        ],
+        "0_0": [
+          {
+            "message": {
+              "en_US": "I'll relent only when you do!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "ANGRY"
+            }
+          }
+        ],
+        "0_1": [
+          {
+            "message": {
+              "en_US": "My, my, you show some remarkable stamina!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SHOCKED"
+            }
+          }
+        ],
+        "0_2": [
+          {
+            "message": {
+              "en_US": "I'm getting tired, but it's still your call when to rest!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "EXHAUSTED"
+            }
+          }
+        ]
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "killCount": 0,
+      "rankReached": "S",
+      "type": "COOLDOWN_START"
+    }
+  },
+  "mira-cooldown-A": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "condition": "party.alive.Mira",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "type": "SELECT_RANDOM",
+        "options": [
+          {
+            "0": " ",
+            "count": 3,
+            "weight": 1
+          }
+        ],
+        "0_0": [
+          {
+            "message": {
+              "en_US": "Looks like the battle's getting heated!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SURPRISED"
+            }
+          }
+        ],
+        "0_1": [
+          {
+            "message": {
+              "en_US": "We're doing pretty well so far!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SMILE"
+            }
+          }
+        ],
+        "0_2": [
+          {
+            "message": {
+              "en_US": "Worry not about my stamina, just yours."
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "DOWN"
+            }
+          }
+        ]
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "killCount": 0,
+      "rankReached": "A",
+      "type": "COOLDOWN_START"
+    }
+  },
+  "mira-cooldown-B": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "condition": "party.alive.Mira",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "type": "SELECT_RANDOM",
+        "options": [
+          {
+            "0": " ",
+            "count": 3,
+            "weight": 1
+          }
+        ],
+        "0_0": [
+          {
+            "message": {
+              "en_US": "We can do it!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "AWESOME"
+            }
+          }
+        ],
+        "0_1": [
+          {
+            "message": {
+              "en_US": "A good start, I'd say!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SMILE"
+            }
+          }
+        ],
+        "0_2": [
+          {
+            "message": {
+              "en_US": "Let's carry this battle out to its end!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SMILE"
+            }
+          }
+        ]
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "killCount": 0,
+      "rankReached": "B",
+      "type": "COOLDOWN_START"
+    }
+  },
+  "mira-battle-over-S": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "condition": "party.alive.Mira",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "type": "SELECT_RANDOM",
+        "options": [
+          {
+            "0": " ",
+            "count": 3,
+            "weight": 1
+          }
+        ],
+        "0_0": [
+          {
+            "message": {
+              "en_US": "You know, you remind me a bit of my old friend on here."
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "EXHAUSTED"
+            }
+          }
+        ],
+        "0_1": [
+          {
+            "message": {
+              "en_US": "Hopefully, the ordeal we undertook was worth it."
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "EXHAUSTED"
+            }
+          }
+        ],
+        "0_2": [
+          {
+            "message": {
+              "en_US": "How about we rest for a bit before moving on?"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "EXHAUSTED"
+            }
+          }
+        ]
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "killCount": 0,
+      "rank": "S",
+      "type": "BATTLE_OVER"
+    }
+  },
+  "mira-contact": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "outgoing": true,
+        "type": "RING_PRIVATE_MSG"
+      },
+      {
+        "type": "START_PRIVATE_MSG"
+      },
+      {
+        "side": "LEFT",
+        "order": 0,
+        "clearSide": false,
+        "type": "ADD_MSG_PERSON",
+        "person": {
+          "person": "mod.mira",
+          "expression": "DEFAULT"
+        }
+      },
+      {
+        "side": "RIGHT",
+        "order": 0,
+        "clearSide": false,
+        "type": "ADD_MSG_PERSON",
+        "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+        }
+      },
+      {
+        "message": {
+          "en_US": "Hello! Are you doing well today?"
+        },
+        "autoContinue": false,
+        "type": "SHOW_MSG",
+        "person": {
+          "person": "mod.mira",
+          "expression": "DEFAULT"
+        }
+      },
+      {
+        "0": [
+          {
+            "message": {
+              "en_US": "[nods]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "main.lea",
+              "expression": "NOD"
+            }
+          },
+          {
+            "message": {
+              "en_US": "Glad to hear! Eventually an arena teleport function will be added."
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SMILE"
+            }
+          }
+        ],
+        "1": [
+          {
+            "message": {
+              "en_US": "[shakes head]"
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "main.lea",
+              "expression": "SHAKE"
+            }
+          },
+          {
+            "message": {
+              "en_US": "Is something the matter? If you want to chat, I'd be happy to do so."
+            },
+            "autoContinue": false,
+            "type": "SHOW_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "DOWN"
+            }
+          }
+        ],
+        "type": "SHOW_CHOICE",
+        "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+        },
+        "options": [
+          {
+            "0": " ",
+            "label": {
+              "en_US": "[yes]"
+            }
+          },
+          {
+            "1": " ",
+            "label": {
+              "en_US": "[no]"
+            }
+          }
+        ]
+      },
+      {
+        "skipSounds": false,
+        "type": "END_PRIVATE_MSG"
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "member": "Mira",
+      "actionType": "CONTACT",
+      "type": "SOCIAL_ACTION"
+    }
+  },
+  "mira-join": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "outgoing": true,
+        "type": "RING_PRIVATE_MSG"
+      },
+      {
+        "type": "START_PRIVATE_MSG"
+      },
+      {
+        "side": "LEFT",
+        "order": 0,
+        "clearSide": false,
+        "type": "ADD_MSG_PERSON",
+        "person": {
+          "person": "mod.mira",
+          "expression": "DEFAULT"
+        }
+      },
+      {
+        "side": "RIGHT",
+        "order": 0,
+        "clearSide": false,
+        "type": "ADD_MSG_PERSON",
+        "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+        }
+      },
+      {
+        "message": {
+          "en_US": "Need my assistance? I'm down to lend a hand."
+        },
+        "autoContinue": false,
+        "type": "SHOW_MSG",
+        "person": {
+          "person": "mod.mira",
+          "expression": "SMILE"
+        }
+      },
+      {
+        "member": "Mira",
+        "skipEffect": false,
+        "type": "ADD_PARTY_MEMBER"
+      },
+      {
+        "skipSounds": false,
+        "type": "END_PRIVATE_MSG"
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "member": "Mira",
+      "actionType": "PARTY_JOIN",
+      "type": "SOCIAL_ACTION"
+    }
+  },
+  "mira-equip-update": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "message": {
+          "en_US": "I've bought some new gear! Maybe this will improve my ability to help."
+        },
+        "type": "SHOW_SIDE_MSG",
+        "person": {
+          "person": "mod.mira",
+          "expression": "AWESOME"
+        }
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "member": "Mira",
+      "eventType": "EQUIP_UPDATE",
+      "actionType": "PARTY_JOIN",
+      "type": "PARTY_MEMBER_EVENT"
+    }
+  },
+  "mira-remove": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "outgoing": true,
+        "type": "RING_PRIVATE_MSG"
+      },
+      {
+        "type": "START_PRIVATE_MSG"
+      },
+      {
+        "side": "LEFT",
+        "order": 0,
+        "clearSide": false,
+        "type": "ADD_MSG_PERSON",
+        "person": {
+          "person": "mod.mira",
+          "expression": "DEFAULT"
+        }
+      },
+      {
+        "side": "RIGHT",
+        "order": 0,
+        "clearSide": false,
+        "type": "ADD_MSG_PERSON",
+        "person": {
+          "person": "main.lea",
+          "expression": "DEFAULT"
+        }
+      },
+      {
+        "message": {
+          "en_US": "It's been a pleasure traveling with you! Let's meet again later."
+        },
+        "autoContinue": false,
+        "type": "SHOW_MSG",
+        "person": {
+          "person": "mod.mira",
+          "expression": "SMILE"
+        }
+      },
+      {
+        "member": "Mira",
+        "skipEffect": false,
+        "type": "REMOVE_PARTY_MEMBER"
+      },
+      {
+        "skipSounds": false,
+        "type": "END_PRIVATE_MSG"
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "member": "Mira",
+      "actionType": "PARTY_LEAVE",
+      "type": "SOCIAL_ACTION"
+    }
+  },
+  "mira-dies": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "type": "SELECT_RANDOM",
+        "options": [
+          {
+            "0": " ",
+            "count": 3,
+            "weight": 1
+          }
+        ],
+        "0_0": [
+          {
+            "message": {
+              "en_US": "Oww, that hurt!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "PAIN"
+            }
+          }
+        ],
+        "0_1": [
+          {
+            "message": {
+              "en_US": "Seems like I've earned a forced break."
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "EXHAUSTED"
+            }
+          }
+        ],
+        "0_2": [
+          {
+            "message": {
+              "en_US": "These enemies hit surprisingly hard!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SHOCKED"
+            }
+          }
+        ]
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "member": "Mira",
+      "eventType": "DIES",
+      "type": "PARTY_MEMBER_EVENT"
+    }
+  },
+  "mira-revived": {
+    "frequency": "ALWAYS",
+    "repeat": "REPEAT",
+    "eventType": "PARALLEL",
+    "overrideSideMessage": false,
+    "event": [
+      {
+        "type": "SELECT_RANDOM",
+        "options": [
+          {
+            "0": " ",
+            "count": 3,
+            "weight": 1
+          }
+        ],
+        "0_0": [
+          {
+            "message": {
+              "en_US": "I'll do my best to make up for that!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "ANGRY"
+            }
+          }
+        ],
+        "0_1": [
+          {
+            "message": {
+              "en_US": "Perhaps I should be more careful next time."
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "THOUGHTFUL"
+            }
+          }
+        ],
+        "0_2": [
+          {
+            "message": {
+              "en_US": "Ready as ever to tackle the task at hand!"
+            },
+            "type": "SHOW_SIDE_MSG",
+            "person": {
+              "person": "mod.mira",
+              "expression": "SMILE"
+            }
+          }
+        ]
+      }
+    ],
+    "loopCount": 1,
+    "type": {
+      "member": "Mira",
+      "eventType": "REVIVED",
+      "type": "PARTY_MEMBER_EVENT"
+    }
+  }
+}

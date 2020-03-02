@@ -1,0 +1,9 @@
+{
+  "name": "Mira",
+  "main": "mod.js",
+  "version": "0.0.1",
+  "dependencies": {
+    "ccloader": "^2.9.0",
+    "Custom Music Loader": "^1.0.0"
+  }
+}

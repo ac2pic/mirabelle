@@ -1,0 +1,19 @@
+[{
+	"type": "INCLUDE",
+	"src": "mod:patches/data/players/mira_base.json"
+},{
+	"type": "INCLUDE",
+	"src": "mod:patches/data/players/mira_neutral_arts.json"
+},{
+	"type": "INCLUDE",
+	"src": "mod:patches/data/players/mira_heat_arts.json"
+},{
+	"type": "INCLUDE",
+	"src": "mod:patches/data/players/mira_cold_arts.json"
+},{
+	"type": "INCLUDE",
+	"src": "mod:patches/data/players/mira_shock_arts.json"
+},{
+	"type": "INCLUDE",
+	"src": "mod:patches/data/players/mira_wave_arts.json"
+}]
