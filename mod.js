@@ -1,14 +1,10 @@
-if (!cc) throw "Can't find CrossCode...";
-
 class Mira {
   constructor() {
-    document.body.addEventListener("modsLoaded", () => this._init());
+    this._init();
   }
 
   _init() {
     this._addPartyMember();
-    this._addDatabaseEntries();
-    this._loadHeads();
   }
 
   _addPartyMember() {
@@ -20,85 +16,13 @@ class Mira {
      * with each other.
      */
     sc.PARTY_OPTIONS.push("Mira");
-
-    cc.sc.party.init();
-
-    const origLoad = cc.ig.gameMain[cc.ig.varNames.gameMainLoadMap];
-    cc.ig.gameMain[cc.ig.varNames.gameMainLoadMap] = data => {
-      const callOrig = origLoad.call(cc.ig.gameMain, data);
-      callOrig;
-
-      if (
-        cc.sc.party.contacts.Mira.status != undefined &&
-        cc.sc.party.contacts.Mira.status == 0
-      ) {
-        new cc.ig.events.SET_PARTY_MEMBER_SP_LEVEL({
-          member: "Mira",
-          level: "3"
-        }).start();
-        new cc.ig.events.SET_PARTY_MEMBER_LEVEL({
-          member: "Mira",
-          level: 60,
-          exp: 183,
-          updateEquipment: true
-        }).start();
-        new cc.ig.events.SET_PARTY_MEMBER_ALL_ELEMENTS({
-          member: "Mira",
-          allElements: true
-        }).start();
-        new cc.ig.events.SET_CONTACT_TYPE({
-          member: "Mira",
-          status: "FRIEND"
-        }).start();
-      }
-    };
   }
-
-  _addDatabaseEntries() {
-    simplify.resources
-      .loadJSONPatched("data/mira-events.json")
-      .then(newDbEntries => {
-        cc.ig.Database.data.commonEvents["cooldown-S"].condition =
-          "party.alive.Emile || party.alive.Glasses || party.alive.Apollo || party.alive.Joern";
-        cc.ig.Database.data.commonEvents["cooldown-A"].condition =
-          "party.alive.Emile || party.alive.Glasses || party.alive.Apollo || party.alive.Joern";
-        cc.ig.Database.data.commonEvents["cooldown-B"].condition =
-          "party.alive.Emile || party.alive.Glasses || party.alive.Apollo || party.alive.Joern";
-
-        for (var key in newDbEntries) {
-          cc.ig.Database.data.commonEvents[key] = newDbEntries[key];
-        }
-
-        const nobody = cc.ig.Database.data.commonEvents["nobody-contact"];
-        delete cc.ig.Database.data.commonEvents["nobody-contact"];
-        cc.ig.Database.data.commonEvents["nobody-contact"] = nobody;
-
-        sc.commonEvents.eventsByType = {};
-        sc.commonEvents.init();
-      })
-      .catch(err => {
-        throw err;
-      });
-  }
-
-  _loadHeads() {
-    this._tmpHeadsImage = new ig.Image("assets/media/gui/severed-heads.png");
-    setTimeout( () => this._updateHeads(), 100 );
-  }
-
-  _updateHeads() {
-    if (this._tmpHeadsImage.loaded) {
-      const tmpSaveGui = new sc.SaveSlotParty;
-      Object.assign(tmpSaveGui.headsGfx, this._tmpHeadsImage);
-    } else {
-      setTimeout( () => this._updateHeads(), 100 );
-    }
-  };
 }
 
 new Mira();
 
-function init() {
+ig.module("game.feature.player.entities.player-hexa").requires("game.feature.player.entities.player").defines(function() {
+
   function b(a) {
     for (var b = h.length, c = 0; b--;)
       if (a.time >= h[b]) {
@@ -107,36 +31,36 @@ function init() {
       } return c = Math.min(a.maxLevel, c)
   }
   Vec2.create();
-    var d = {
-            actionKey: "ATTACK_SPECIAL"
-        },
-        c = {
-            actionKey: "THROW_SPECIAL"
-        },
-        e = {
-            actionKey: "GUARD_SPECIAL"
-        },
-        f = {
-            actionKey: "DASH_SPECIAL"
-        },
-        g = ["Neutral", "Heat", "Cold", "Shock", "Wave"],
-        h = [0.25, 0.5, 1];
-    sc.PLAYER_ZOOM = 1;
-    var i = {
-            thrown: false,
-            melee: false,
-            aim: false,
-            autoThrow: false,
-            attack: false,
-            guard: false,
-            charge: false,
-            dashX: 0,
-            dashY: 0,
-            switchMode: false,
-            relativeVel: 0,
-            moveDir: Vec2.create()
-        },
-        j = {};
+  var d = {
+          actionKey: "ATTACK_SPECIAL"
+      },
+      c = {
+          actionKey: "THROW_SPECIAL"
+      },
+      e = {
+          actionKey: "GUARD_SPECIAL"
+      },
+      f = {
+          actionKey: "DASH_SPECIAL"
+      },
+      g = ["Neutral", "Heat", "Cold", "Shock", "Wave"],
+      h = [0.25, 0.5, 1];
+  sc.PLAYER_ZOOM = 1;
+  var i = {
+        thrown: false,
+        melee: false,
+        aim: false,
+        autoThrow: false,
+        attack: false,
+        guard: false,
+        charge: false,
+        dashX: 0,
+        dashY: 0,
+        switchMode: false,
+        relativeVel: 0,
+        moveDir: Vec2.create()
+    },
+    j = {};
   ig.ENTITY.Player.inject({
     startCharge: function(a) {
       if (this.animSheet && this.animSheet.path === 'npc.mira') {
@@ -236,6 +160,4 @@ function init() {
       return true
     }
   });
-}
-
-document.body.addEventListener('modsLoaded', init);
+});
