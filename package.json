@@ -3,7 +3,6 @@
   "prestart": "mod.js",
   "version": "0.0.1",
   "dependencies": {
-    "ccloader": "^2.9.0",
     "extendable-severed-heads": "^1.0.0"
   }
 }
