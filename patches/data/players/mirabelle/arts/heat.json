@@ -125,7 +125,7 @@
           {  
             "name":"default",
             "sheet":{  
-              "src":"media\/entity\/enemy\/heat-projectile.png",
+              "src":"media/entity/enemy/heat-projectile.png",
               "offX":8,
               "offY":0,
               "width":24,
@@ -277,7 +277,7 @@
           {  
             "name":"default",
             "sheet":{  
-              "src":"media\/entity\/enemy\/heat-projectile.png",
+              "src":"media/entity/enemy/heat-projectile.png",
               "offX":0,
               "offY":24,
               "width":32,
@@ -584,7 +584,7 @@
           {  
             "name":"default",
             "sheet":{  
-              "src":"media\/entity\/enemy\/heat-projectile.png",
+              "src":"media/entity/enemy/heat-projectile.png",
               "offX":0,
               "offY":24,
               "width":32,
@@ -650,7 +650,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"redScreenLight"
           },
           "offset":{  
@@ -1099,7 +1099,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1119,7 +1119,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1139,7 +1139,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1159,7 +1159,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1232,7 +1232,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1252,7 +1252,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1272,7 +1272,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1292,7 +1292,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1312,7 +1312,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  
@@ -1332,7 +1332,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicMeteorPre"
           },
           "offset":{  

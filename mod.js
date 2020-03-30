@@ -1,4 +1,4 @@
-sc.PARTY_OPTIONS.push("Mira");
+sc.PARTY_OPTIONS.push("Mirabelle");
 
 
 ig.module("game.feature.player.entities.player-hexa").requires("game.feature.player.entities.player").defines(function() {
@@ -6,7 +6,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
   
   ig.ENTITY.Player.inject({
     startCharge: function(a) {
-      if (this.animSheet && this.animSheet.path === 'npc.mira') {
+      if (this.animSheet && this.animSheet.path === 'npc.mirabelle') {
         var art = this.model.getCombatArt(this.model.currentElementMode, `${a.actionKey}1_A`)
         if (art && art.needsTarget) {
           if (!this.target) {
@@ -22,14 +22,14 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
       return this.parent(a);
     },
     update: function() {
-      if (this.animSheet && this.animSheet.path === 'npc.mira' && this.lockTimer > 0) {
+      if (this.animSheet && this.animSheet.path === 'npc.mirabelle' && this.lockTimer > 0) {
         this.lockTimer = this.lockTimer - ig.system.tick;
         if (this.lockTimer <= 0 && this.lockTimer !== -1) {
           this.target = null;
         }
       }
       this.parent();
-      if (this.animSheet && this.animSheet.path === 'npc.mira') {
+      if (this.animSheet && this.animSheet.path === 'npc.mirabelle') {
         this.target = !this.target || this.target._killed ? null : this.target;
       } else if (this.target) {
         this.target = null;

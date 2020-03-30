@@ -132,7 +132,7 @@
           "y":8
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":200,
           "offY":0,
           "width":48,
@@ -162,7 +162,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicTornadoPre"
           },
           "offset":{  
@@ -182,7 +182,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"tornadoSmall"
           },
           "offset":{  
@@ -232,7 +232,7 @@
           "global":false,
           "loop":false,
           "type":"PLAY_SOUND",
-          "sound":"media\/sound\/battle\/wave-swell-3.ogg"
+          "sound":"media/sound/battle/wave-swell-3.ogg"
         },
         {
           "value":600,
@@ -287,7 +287,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"fadeOut"
           },
           "offset":{  
@@ -301,7 +301,7 @@
           "type":"WAIT"
         }
       ],
-      "effects": "combat.hexacast_mira",
+      "effects": "mirabelle",
       "effectKeys": {
         "trail": "waveGun",
         "wall": "waveGunXplode",
@@ -345,7 +345,7 @@
           "y":8
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":200,
           "offY":0,
           "width":48,
@@ -395,7 +395,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicTornadoPre"
           },
           "offset":{  
@@ -415,7 +415,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"tornadoLarge"
           },
           "offset":{  
@@ -465,7 +465,7 @@
           "global":false,
           "loop":false,
           "type":"PLAY_SOUND",
-          "sound":"media\/sound\/battle\/wave-swell-3.ogg"
+          "sound":"media/sound/battle/wave-swell-3.ogg"
         },
         {
           "attribName": "fly",
@@ -626,7 +626,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"fadeOut"
           },
           "offset":{  
@@ -640,7 +640,7 @@
           "type":"WAIT"
         }
       ],
-      "effects": "combat.hexacast_mira",
+      "effects": "mirabelle",
       "effectKeys": {
         "trail": "waveGun",
         "wall": "waveGunXplode",
@@ -684,7 +684,7 @@
           "y":8
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":200,
           "offY":72,
           "width":96,
@@ -714,7 +714,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicTornadoPre"
           },
           "offset":{  
@@ -734,7 +734,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"tornadoLarge"
           },
           "offset":{  
@@ -781,7 +781,7 @@
           "global":false,
           "loop":false,
           "type":"PLAY_SOUND",
-          "sound":"media\/sound\/battle\/wave-swell-3.ogg"
+          "sound":"media/sound/battle/wave-swell-3.ogg"
         },
         {
           "value":400,
@@ -954,7 +954,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"fadeOut"
           },
           "offset":{  
@@ -968,7 +968,7 @@
           "type":"WAIT"
         }
       ],
-      "effects": "combat.hexacast_mira",
+      "effects": "mirabelle",
       "effectKeys": {
         "trail": "waveGun",
         "wall": "waveGunXplode",

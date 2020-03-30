@@ -15,7 +15,7 @@
 			"animation":{
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":152,
           "width":16,
@@ -67,7 +67,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":152,
           "width":16,
@@ -117,7 +117,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":152,
           "width":16,
@@ -155,7 +155,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":16,
           "offY":152,
           "width":24,
@@ -220,7 +220,7 @@
           "type":"SHOW_EFFECT",
           "group":"ball",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"sentinelBall"
           },
           "offset":{  
@@ -277,7 +277,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralHexaCharge"
           },
           "offset":{  
@@ -349,7 +349,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":16,
           "offY":152,
           "width":24,
@@ -429,7 +429,7 @@
           "type":"SHOW_EFFECT",
           "group":"ball",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"sentinelBall"
           },
           "offset":{  
@@ -503,7 +503,7 @@
           "type":"SHOW_EFFECT",
           "group":"ball",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"sentinelWhirlwind"
           },
           "offset":{  
@@ -564,7 +564,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralHexaCharge"
           },
           "offset":{  
@@ -1084,7 +1084,7 @@
 		          "fixPos":false,
 		          "type":"SHOW_EFFECT",
 		          "effect":{  
-		            "sheet":"combat.hexacast_mira",
+		            "sheet":"mirabelle",
 		            "name":"atkDebuffAura"
 		          },
 		          "offset":{  
@@ -1145,7 +1145,7 @@
 		          "fixPos":false,
 		          "type":"SHOW_EFFECT",
 		          "effect":{  
-		            "sheet":"combat.hexacast_mira",
+		            "sheet":"mirabelle",
 		            "name":"defDebuffAura"
 		          },
 		          "offset":{  
@@ -1206,7 +1206,7 @@
 		          "fixPos":false,
 		          "type":"SHOW_EFFECT",
 		          "effect":{  
-		            "sheet":"combat.hexacast_mira",
+		            "sheet":"mirabelle",
 		            "name":"fcsDebuffAura"
 		          },
 		          "offset":{  
@@ -1276,7 +1276,7 @@
 		          "fixPos":false,
 		          "type":"SHOW_EFFECT",
 		          "effect":{  
-		            "sheet":"combat.hexacast_mira",
+		            "sheet":"mirabelle",
 		            "name":"hpDebuffAura"
 		          },
 		          "offset":{  
@@ -1526,7 +1526,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"arcaneBlast"
           },
           "offset":{  
@@ -1632,7 +1632,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":48,
           "width":32,
@@ -1664,7 +1664,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxe"
           },
           "offset":{  
@@ -1688,7 +1688,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeSwing"
           },
           "offset":{  
@@ -1708,7 +1708,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeSound"
           },
           "offset":{  
@@ -1802,7 +1802,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":48,
           "width":32,
@@ -1834,7 +1834,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxe"
           },
           "offset":{  
@@ -1858,7 +1858,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeSwing"
           },
           "offset":{  
@@ -1878,7 +1878,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeSound"
           },
           "offset":{  
@@ -1951,7 +1951,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeSwingLarge"
           },
           "offset":{  
@@ -2045,7 +2045,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":48,
           "width":32,
@@ -2089,7 +2089,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeFast"
           },
           "offset":{  
@@ -2156,7 +2156,7 @@
           "type":"SHOW_EFFECT",
           "group":"swing",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeFallSmall"
           },
           "offset":{  
@@ -2700,7 +2700,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":48,
           "width":32,
@@ -2744,7 +2744,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeFast2"
           },
           "offset":{  
@@ -2768,7 +2768,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeDrill"
           },
           "offset":{  
@@ -2798,7 +2798,7 @@
           "type":"SHOW_EFFECT",
           "group":"fall",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeFallLarge"
           },
           "offset":{  
@@ -2839,7 +2839,7 @@
           "type":"SHOW_EFFECT",
           "group":"drill",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"neutralAxeDrillHit"
           },
           "offset":{  
@@ -2909,7 +2909,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":80,
           "width":16,
@@ -2947,7 +2947,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"bubbleSmall"
           },
           "offset":{  
@@ -2995,7 +2995,7 @@
 		          "fixPos":false,
 		          "type":"SHOW_EFFECT",
 		          "effect":{  
-		            "sheet":"combat.hexacast_mira",
+		            "sheet":"mirabelle",
 		            "name":"neutralHexaCharge"
 		          },
 		          "offset":{  
@@ -3052,7 +3052,7 @@
 		          "fixPos":false,
 		          "type":"SHOW_EFFECT",
 		          "effect":{  
-		            "sheet":"combat.hexacast_mira",
+		            "sheet":"mirabelle",
 		            "name":"bubbleSmallBurst"
 		          },
 		          "offset":{  
@@ -3136,7 +3136,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":80,
           "width":16,
@@ -3166,7 +3166,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"bubbleSmall"
           },
           "offset":{  
@@ -3206,7 +3206,7 @@
 		          "fixPos":false,
 		          "type":"SHOW_EFFECT",
 		          "effect":{  
-		            "sheet":"combat.hexacast_mira",
+		            "sheet":"mirabelle",
 		            "name":"neutralHexaCharge"
 		          },
 		          "offset":{  
@@ -3242,7 +3242,7 @@
 		          "fixPos":false,
 		          "type":"SHOW_EFFECT",
 		          "effect":{  
-		            "sheet":"combat.hexacast_mira",
+		            "sheet":"mirabelle",
 		            "name":"bubbleSmallBurstAlt"
 		          },
 		          "offset":{  
@@ -3336,7 +3336,7 @@
           "z":0
         },
         "sheet":{  
-          "src":"media\/entity\/effects\/hexacast-mira.png",
+          "src":"media/entity/effects/hexacast-mira.png",
           "offX":0,
           "offY":104,
           "width":48,
@@ -3366,7 +3366,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"bubbleLarge"
           },
           "offset":{  
@@ -3619,7 +3619,7 @@
             "group":"dash",
             "duration":0.5,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDashTrail"
             }
           },
@@ -3722,7 +3722,7 @@
             "group":"dash",
             "duration":0.35,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDashTrail"
             }
           },
@@ -3929,7 +3929,7 @@
             "group":"dash",
             "duration":1.44,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDashTrail"
             }
           },
@@ -4032,7 +4032,7 @@
             "group":"dash",
             "duration":0.5,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDashTrail"
             }
           },
@@ -4223,7 +4223,7 @@
             "group":"dash",
             "duration":-1,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDashTrail"
             }
           },
@@ -4436,7 +4436,7 @@
             "group":"dash",
             "duration":-1,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDashTrail"
             }
           },
@@ -4452,7 +4452,7 @@
             "group":"dash",
             "duration":-1,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"bubbleTrail"
             }
           },
@@ -4745,7 +4745,7 @@
             "group":"dash",
             "duration":-1,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDashTrail"
             }
           },
@@ -4761,7 +4761,7 @@
             "group":"dash",
             "duration":-1,
             "effect":{
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"bubbleTrail"
             }
           },

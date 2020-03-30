@@ -63,7 +63,7 @@
             "global":false,
             "loop":false,
             "type":"PLAY_SOUND",
-            "sound":"media\/sound\/battle\/dash-3.ogg"
+            "sound":"media/sound/battle/dash-3.ogg"
           },
           {
             "factor":1,

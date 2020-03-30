@@ -1,6 +1,6 @@
 {  
-  "character":"mod.mira",
-  "sheet":"npc.mira",
+  "character":"mirabelle",
+  "sheet":"npc.mirabelle",
   "headIdx":12,
   "class":"HEXACAST",
   "stats":{  
@@ -222,7 +222,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":192,
           "offY":0,
           "width":24,
@@ -273,7 +273,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":192,
           "offY":24,
           "width":24,
@@ -323,7 +323,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png ",
+          "src":"media/entity/balls/default.png ",
           "offX":192,
           "offY":48,
           "width":24,
@@ -372,7 +372,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png ",
+          "src":"media/entity/balls/default.png ",
           "offX":192,
           "offY":72,
           "width":24,
@@ -422,7 +422,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png ",
+          "src":"media/entity/balls/default.png ",
           "offX":192,
           "offY":96,
           "width":24,
@@ -475,7 +475,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":168,
           "offY":0,
           "width":24,
@@ -517,7 +517,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":168,
           "offY":24,
           "width":24,
@@ -561,7 +561,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":168,
           "offY":48,
           "width":24,
@@ -605,7 +605,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":168,
           "offY":72,
           "width":24,
@@ -649,7 +649,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":168,
           "offY":96,
           "width":24,
@@ -696,7 +696,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":192,
           "offY":0,
           "width":24,
@@ -737,7 +737,7 @@
       "animation":{  
         "name":"default",
         "sheet":{  
-          "src":"media\/entity\/balls\/default.png",
+          "src":"media/entity/balls/default.png",
           "offX":192,
           "offY":0,
           "width":24,
@@ -943,7 +943,7 @@
             "global":false,
             "loop":false,
             "type":"PLAY_SOUND",
-            "sound":"media\/sound\/battle\/dash-3.ogg"
+            "sound":"media/sound/battle/dash-3.ogg"
           },
           {  
             "factor":1,
@@ -1182,7 +1182,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerNeutral"
                 },
                 "offset":{  
@@ -1346,7 +1346,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerNeutral"
                 },
                 "offset":{  
@@ -1759,7 +1759,7 @@
             "fixPos":false,
             "type":"SHOW_EFFECT",
             "effect":{  
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDodgeTrail"
             },
             "offset":{  
@@ -1865,7 +1865,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerHeat"
                 },
                 "offset":{  
@@ -2029,7 +2029,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerHeat"
                 },
                 "offset":{  
@@ -2442,7 +2442,7 @@
             "fixPos":false,
             "type":"SHOW_EFFECT",
             "effect":{  
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDodgeTrail"
             },
             "offset":{  
@@ -2548,7 +2548,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerCold"
                 },
                 "offset":{  
@@ -2712,7 +2712,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerCold"
                 },
                 "offset":{  
@@ -3125,7 +3125,7 @@
             "fixPos":false,
             "type":"SHOW_EFFECT",
             "effect":{  
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDodgeTrail"
             },
             "offset":{  
@@ -3231,7 +3231,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerShock"
                 },
                 "offset":{  
@@ -3395,7 +3395,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerShock"
                 },
                 "offset":{  
@@ -3808,7 +3808,7 @@
             "fixPos":false,
             "type":"SHOW_EFFECT",
             "effect":{  
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDodgeTrail"
             },
             "offset":{  
@@ -3914,7 +3914,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerWave"
                 },
                 "offset":{  
@@ -4078,7 +4078,7 @@
                 "fixPos":false,
                 "type":"SHOW_EFFECT",
                 "effect":{  
-                  "sheet":"combat.hexacast_mira",
+                  "sheet":"mirabelle",
                   "name":"aimMarkerWave"
                 },
                 "offset":{  
@@ -4491,7 +4491,7 @@
             "fixPos":false,
             "type":"SHOW_EFFECT",
             "effect":{  
-              "sheet":"combat.hexacast_mira",
+              "sheet":"mirabelle",
               "name":"neutralDodgeTrail"
             },
             "offset":{  

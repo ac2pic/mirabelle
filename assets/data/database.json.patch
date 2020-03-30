@@ -3,7 +3,7 @@
 	"index": "commonEvents"
 }, {
 	"type": "INCLUDE",
-	"src": "assets/data/mira-events.json"
+	"src": "assets/data/mirabelle-events.json"
 }, {
 	"type": "ENTER",
 	"index" : "cooldown-S"

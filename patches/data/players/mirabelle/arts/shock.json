@@ -131,7 +131,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"magicSparkPre"
           },
           "offset":{  
@@ -180,7 +180,7 @@
               "y":8
             },
             "sheet":{  
-              "src":"media\/entity\/effects\/hexacast-mira.png",
+              "src":"media/entity/effects/hexacast-mira.png",
               "offX":408,
               "offY":0,
               "width":64,
@@ -211,7 +211,7 @@
               "y":8
             },
             "sheet":{  
-              "src":"media\/entity\/effects\/hexacast-mira.png",
+              "src":"media/entity/effects/hexacast-mira.png",
               "offX":664,
               "offY":0,
               "width":64,
@@ -242,7 +242,7 @@
               "y":8
             },
             "sheet":{  
-              "src":"media\/entity\/effects\/hexacast-mira.png",
+              "src":"media/entity/effects/hexacast-mira.png",
               "offX":664,
               "offY":0,
               "width":1,
@@ -304,7 +304,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"smallSparkAppear"
           },
           "offset":{  
@@ -332,7 +332,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"pulse"
           },
           "offset":{  
@@ -346,7 +346,7 @@
           "global":false,
           "loop":false,
           "speed":1.0,
-          "sound":"media\/sound\/puzzle\/shock-short.ogg",
+          "sound":"media/sound/puzzle/shock-short.ogg",
           "type":"PLAY_SOUND"
         },
         {
@@ -408,7 +408,7 @@
           "global":false,
           "loop":false,
           "speed":1.0,
-          "sound":"media\/sound\/battle\/enemies\/charge-05s.ogg",
+          "sound":"media/sound/battle/enemies/charge-05s.ogg",
           "type":"PLAY_SOUND"
         },
         {
@@ -441,7 +441,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"shockBoom"
           },
           "offset":{  
@@ -548,7 +548,7 @@
               "y":8
             },
             "sheet":{  
-              "src":"media\/entity\/effects\/hexacast-mira.png",
+              "src":"media/entity/effects/hexacast-mira.png",
               "offX":408,
               "offY":0,
               "width":64,
@@ -579,7 +579,7 @@
               "y":8
             },
             "sheet":{  
-              "src":"media\/entity\/effects\/hexacast-mira.png",
+              "src":"media/entity/effects/hexacast-mira.png",
               "offX":664,
               "offY":0,
               "width":64,
@@ -610,7 +610,7 @@
               "y":8
             },
             "sheet":{  
-              "src":"media\/entity\/effects\/hexacast-mira.png",
+              "src":"media/entity/effects/hexacast-mira.png",
               "offX":664,
               "offY":0,
               "width":1,
@@ -672,7 +672,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"smallSparkAppear"
           },
           "offset":{  
@@ -700,7 +700,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"pulse"
           },
           "offset":{  
@@ -714,7 +714,7 @@
           "global":false,
           "loop":false,
           "speed":1.0,
-          "sound":"media\/sound\/puzzle\/shock-short.ogg",
+          "sound":"media/sound/puzzle/shock-short.ogg",
           "type":"PLAY_SOUND"
         },
         {
@@ -793,7 +793,7 @@
           "global":false,
           "loop":false,
           "speed":1.0,
-          "sound":"media\/sound\/battle\/enemies\/charge-05s.ogg",
+          "sound":"media/sound/battle/enemies/charge-05s.ogg",
           "type":"PLAY_SOUND"
         },
         {
@@ -820,7 +820,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"purpleScreenLight"
           },
           "offset":{  
@@ -1293,7 +1293,7 @@
           "fixPos":false,
           "type":"SHOW_EFFECT",
           "effect":{  
-            "sheet":"combat.hexacast_mira",
+            "sheet":"mirabelle",
             "name":"shockBoom2"
           },
           "offset":{  
