@@ -3,6 +3,7 @@
   "prestart": "mod.js",
   "version": "1.0.0",
   "dependencies": {
-    "extendable-severed-heads": "^1.0.0"
+    "extendable-severed-heads": "^1.0.0",
+    "menu-ui-replacer": "1.x.x",
   }
 }
