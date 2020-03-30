@@ -1,0 +1,26 @@
+{
+  "name": "mirabelle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "npm run minify-json && npm run json-beautify && npm run js-beautify",
+    "minify-json": "minify-json ./mirabelle/",
+    "js-beautify": "js-beautify -js -q -r -f ./mirabelle/**/*.js",
+    "json-beautify": "js-beautify -js -r -f ./mirabelle/**/*.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCDirectLink/mirabelle.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CCDirectLink/mirabelle/issues"
+  },
+  "homepage": "https://github.com/CCDirectLink/mirabelle#readme",
+  "dependencies": {
+    "minify-json": "^1.0.0",
+    "js-beautify": "^1.10.2"
+  }
+}
