@@ -358,7 +358,7 @@
                         "y": 8
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png",
+                        "src": "media/entity/effects/mirabelle/attack.png",
                         "offX": 0,
                         "offY": 0,
                         "width": 32,
@@ -383,7 +383,7 @@
                         "y": 8
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png",
+                        "src": "media/entity/effects/mirabelle/attack.png",
                         "offX": 32,
                         "offY": 0,
                         "width": 32,
@@ -615,7 +615,7 @@
                         "y": 0
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png  ",
+                        "src": "media/entity/effects/mirabelle/attack.png  ",
                         "offX": 72,
                         "offY": 0,
                         "width": 64,
@@ -640,7 +640,7 @@
                         "y": 0
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png  ",
+                        "src": "media/entity/effects/mirabelle/attack.png  ",
                         "offX": 136,
                         "offY": 0,
                         "width": 64,

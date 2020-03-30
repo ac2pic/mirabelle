@@ -54,7 +54,7 @@
         }, {
             "name": "DEBUFF_ATK",
             "sheet": {
-                "src": "media/entity/effects/hexacast-mira.png",
+                "src": "media/entity/effects/mirabelle/attack.png",
                 "width": 8,
                 "height": 8,
                 "offX": 64,
@@ -67,7 +67,7 @@
         }, {
             "name": "DEBUFF_DEF",
             "sheet": {
-                "src": "media/entity/effects/hexacast-mira.png",
+                "src": "media/entity/effects/mirabelle/attack.png",
                 "width": 8,
                 "height": 8,
                 "offX": 104,
@@ -80,7 +80,7 @@
         }, {
             "name": "DEBUFF_FCS",
             "sheet": {
-                "src": "media/entity/effects/hexacast-mira.png",
+                "src": "media/entity/effects/mirabelle/attack.png",
                 "width": 8,
                 "height": 8,
                 "offX": 64,
@@ -93,7 +93,7 @@
         }, {
             "name": "DEBUFF_HP",
             "sheet": {
-                "src": "media/entity/effects/hexacast-mira.png",
+                "src": "media/entity/effects/mirabelle/attack.png",
                 "width": 8,
                 "height": 8,
                 "offX": 104,
@@ -106,7 +106,7 @@
         }, {
             "name": "HEXA_BUBBLE_INV",
             "sheet": {
-                "src": "media/entity/effects/hexacast-mira.png",
+                "src": "media/entity/effects/mirabelle/attack.png",
                 "width": 8,
                 "height": 8,
                 "offY": 96
@@ -117,7 +117,7 @@
         }, {
             "name": "HEXA_BUBBLE",
             "sheet": {
-                "src": "media/entity/effects/hexacast-mira.png",
+                "src": "media/entity/effects/mirabelle/attack.png",
                 "width": 8,
                 "height": 8,
                 "offY": 96
@@ -241,7 +241,7 @@
         }, {
             "name": "SPARK_BOOM_SMALL",
             "sheet": {
-                "src": "media/entity/effects/hexacast-mira.png",
+                "src": "media/entity/effects/mirabelle/attack.png",
                 "offX": 408,
                 "offY": 64,
                 "width": 128,

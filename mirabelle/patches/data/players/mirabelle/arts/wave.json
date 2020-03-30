@@ -118,7 +118,7 @@
                     "y": 8
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 200,
                     "offY": 0,
                     "width": 48,
@@ -308,7 +308,7 @@
                     "y": 8
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 200,
                     "offY": 0,
                     "width": 48,
@@ -601,7 +601,7 @@
                     "y": 8
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 200,
                     "offY": 72,
                     "width": 96,

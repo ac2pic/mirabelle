@@ -162,7 +162,7 @@
                         "y": 8
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png",
+                        "src": "media/entity/effects/mirabelle/attack.png",
                         "offX": 408,
                         "offY": 0,
                         "width": 64,
@@ -187,7 +187,7 @@
                         "y": 8
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png",
+                        "src": "media/entity/effects/mirabelle/attack.png",
                         "offX": 664,
                         "offY": 0,
                         "width": 64,
@@ -212,7 +212,7 @@
                         "y": 8
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png",
+                        "src": "media/entity/effects/mirabelle/attack.png",
                         "offX": 664,
                         "offY": 0,
                         "width": 1,
@@ -481,7 +481,7 @@
                         "y": 8
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png",
+                        "src": "media/entity/effects/mirabelle/attack.png",
                         "offX": 408,
                         "offY": 0,
                         "width": 64,
@@ -506,7 +506,7 @@
                         "y": 8
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png",
+                        "src": "media/entity/effects/mirabelle/attack.png",
                         "offX": 664,
                         "offY": 0,
                         "width": 64,
@@ -531,7 +531,7 @@
                         "y": 8
                     },
                     "sheet": {
-                        "src": "media/entity/effects/hexacast-mira.png",
+                        "src": "media/entity/effects/mirabelle/attack.png",
                         "offX": 664,
                         "offY": 0,
                         "width": 1,

@@ -15,7 +15,7 @@
             "animation": {
                 "name": "default",
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 152,
                     "width": 16,
@@ -59,7 +59,7 @@
             "animation": {
                 "name": "default",
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 152,
                     "width": 16,
@@ -103,7 +103,7 @@
             "animation": {
                 "name": "default",
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 152,
                     "width": 16,
@@ -137,7 +137,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 16,
                     "offY": 152,
                     "width": 24,
@@ -305,7 +305,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 16,
                     "offY": 152,
                     "width": 24,
@@ -1376,7 +1376,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 48,
                     "width": 32,
@@ -1529,7 +1529,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 48,
                     "width": 32,
@@ -1748,7 +1748,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 48,
                     "width": 32,
@@ -2327,7 +2327,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 48,
                     "width": 32,
@@ -2504,7 +2504,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 80,
                     "width": 16,
@@ -2703,7 +2703,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 80,
                     "width": 16,
@@ -2877,7 +2877,7 @@
                     "z": 0
                 },
                 "sheet": {
-                    "src": "media/entity/effects/hexacast-mira.png",
+                    "src": "media/entity/effects/mirabelle/attack.png",
                     "offX": 0,
                     "offY": 104,
                     "width": 48,
