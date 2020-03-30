@@ -36,7 +36,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
             }
         },
         startCloseCombatAction: function(a, b) {
-            if (this.attackCounter > 1 && this.animSheet && this.animSheet.path === 'npc.mira') {
+            if (this.attackCounter > 1 && this.animSheet && this.animSheet.path === 'npc.mirabelle') {
                 b.melee = true;
                 a = "ATTACK_FINISHER";
                 this.attackResetTimer = this.attackCounter = 0;
@@ -44,7 +44,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
             this.parent(a, b);
         },
         onTargetHit: function(a, b, c, d) {
-            if (this.animSheet && this.animSheet.path === 'npc.mira') {
+            if (this.animSheet && this.animSheet.path === 'npc.mirabelle') {
                 this.target = a;
                 if (this.lockTimer < 2.0 && this.lockTimer !== -1) {
                     this.lockTimer = 2.0;
@@ -56,7 +56,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
 
     ig.ACTION_STEP.FACE_TO_TARGET.inject({
         run: function(a) {
-            if (a.isPlayer && !a.tempTarget && a.animSheet && a.animSheet.path === 'npc.mira') {
+            if (a.isPlayer && !a.tempTarget && a.animSheet && a.animSheet.path === 'npc.mirabelle') {
                 return true;
             }
             a.faceToTarget.active = this.value;

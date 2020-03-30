@@ -20,7 +20,7 @@
         "y": 16,
         "z": 24
     },
-    "animSheet": "npc.mira",
+    "animSheet": "npc.mirabelle",
     "walkAnimSet": {
         "normal": {
             "idle": "idle",
