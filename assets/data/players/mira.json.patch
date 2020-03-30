@@ -1,19 +1,19 @@
 [{
 	"type": "INCLUDE",
-	"src": "mod:patches/data/players/mira_base.json"
+	"src": "mod:patches/data/players/mirabelle/arts/base.json"
 },{
 	"type": "INCLUDE",
-	"src": "mod:patches/data/players/mira_neutral_arts.json"
+	"src": "mod:patches/data/players/mirabelle/arts/neutral.json"
 },{
 	"type": "INCLUDE",
-	"src": "mod:patches/data/players/mira_heat_arts.json"
+	"src": "mod:patches/data/players/mirabelle/arts/heat.json"
 },{
 	"type": "INCLUDE",
-	"src": "mod:patches/data/players/mira_cold_arts.json"
+	"src": "mod:patches/data/players/mirabelle/arts/cold.json"
 },{
 	"type": "INCLUDE",
-	"src": "mod:patches/data/players/mira_shock_arts.json"
+	"src": "mod:patches/data/players/mirabelle/arts/shock.json"
 },{
 	"type": "INCLUDE",
-	"src": "mod:patches/data/players/mira_wave_arts.json"
+	"src": "mod:patches/data/players/mirabelle/arts/wave.json"
 }]
