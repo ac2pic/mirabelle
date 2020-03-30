@@ -43,21 +43,21 @@
 		"loopCount": 1,
 		"event": [{
 			"type": "SET_PARTY_MEMBER_SP_LEVEL",
-			"member": "Mira",
+			"member": "Mirabelle",
 			"level": 3
 		}, {
 			"type": "SET_PARTY_MEMBER_LEVEL",
-			"member": "Mira",
+			"member": "Mirabelle",
 			"level": 60,
 			"exp": 183,
 			"updateEquipment": true
 		},{
 			"type": "SET_PARTY_MEMBER_ALL_ELEMENTS",
-			"member": "Mira",
+			"member": "Mirabelle",
 			"allElements": true		
 		}, {
 			"type": "SET_CONTACT_TYPE",
-			"member": "Mira",
+			"member": "Mirabelle",
 			"status": "FRIEND"
 		}],
 		"type": {

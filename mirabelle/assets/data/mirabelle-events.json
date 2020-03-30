@@ -1,8 +1,8 @@
 {
-    "mira-battle-start": {
+    "mirabelle-battle-start": {
         "frequency": "SOMETIMES",
         "repeat": "REPEAT",
-        "condition": "party.alive.Mira && !tmp.common.passiveAttack",
+        "condition": "party.alive.Mirabelle && !tmp.common.passiveAttack",
         "eventType": "PARALLEL",
         "overrideSideMessage": false,
         "event": [{
@@ -18,7 +18,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SMILE"
                 }
             }],
@@ -28,7 +28,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "AWESOME"
                 }
             }],
@@ -38,7 +38,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SMILE"
                 }
             }]
@@ -49,10 +49,10 @@
             "battleStarted": true
         }
     },
-    "mira-cooldown-S": {
+    "mirabelle-cooldown-S": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
-        "condition": "party.alive.Mira",
+        "condition": "party.alive.Mirabelle",
         "eventType": "PARALLEL",
         "overrideSideMessage": false,
         "event": [{
@@ -68,7 +68,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "ANGRY"
                 }
             }],
@@ -78,7 +78,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SHOCKED"
                 }
             }],
@@ -88,7 +88,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "EXHAUSTED"
                 }
             }]
@@ -100,10 +100,10 @@
             "type": "COOLDOWN_START"
         }
     },
-    "mira-cooldown-A": {
+    "mirabelle-cooldown-A": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
-        "condition": "party.alive.Mira",
+        "condition": "party.alive.Mirabelle",
         "eventType": "PARALLEL",
         "overrideSideMessage": false,
         "event": [{
@@ -119,7 +119,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SURPRISED"
                 }
             }],
@@ -129,7 +129,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SMILE"
                 }
             }],
@@ -139,7 +139,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "DOWN"
                 }
             }]
@@ -151,10 +151,10 @@
             "type": "COOLDOWN_START"
         }
     },
-    "mira-cooldown-B": {
+    "mirabelle-cooldown-B": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
-        "condition": "party.alive.Mira",
+        "condition": "party.alive.Mirabelle",
         "eventType": "PARALLEL",
         "overrideSideMessage": false,
         "event": [{
@@ -170,7 +170,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "AWESOME"
                 }
             }],
@@ -180,7 +180,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SMILE"
                 }
             }],
@@ -190,7 +190,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SMILE"
                 }
             }]
@@ -202,10 +202,10 @@
             "type": "COOLDOWN_START"
         }
     },
-    "mira-battle-over-S": {
+    "mirabelle-battle-over-S": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
-        "condition": "party.alive.Mira",
+        "condition": "party.alive.Mirabelle",
         "eventType": "PARALLEL",
         "overrideSideMessage": false,
         "event": [{
@@ -221,7 +221,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "EXHAUSTED"
                 }
             }],
@@ -231,7 +231,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "EXHAUSTED"
                 }
             }],
@@ -241,7 +241,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "EXHAUSTED"
                 }
             }]
@@ -253,7 +253,7 @@
             "type": "BATTLE_OVER"
         }
     },
-    "mira-contact": {
+    "mirabelle-contact": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
         "eventType": "PARALLEL",
@@ -269,7 +269,7 @@
             "clearSide": false,
             "type": "ADD_MSG_PERSON",
             "person": {
-                "person": "mod.mira",
+                "person": "mirabelle",
                 "expression": "DEFAULT"
             }
         }, {
@@ -288,7 +288,7 @@
             "autoContinue": false,
             "type": "SHOW_MSG",
             "person": {
-                "person": "mod.mira",
+                "person": "mirabelle",
                 "expression": "DEFAULT"
             }
         }, {
@@ -309,7 +309,7 @@
                 "autoContinue": false,
                 "type": "SHOW_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SMILE"
                 }
             }],
@@ -330,7 +330,7 @@
                 "autoContinue": false,
                 "type": "SHOW_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "DOWN"
                 }
             }],
@@ -356,12 +356,12 @@
         }],
         "loopCount": 1,
         "type": {
-            "member": "Mira",
+            "member": "Mirabelle",
             "actionType": "CONTACT",
             "type": "SOCIAL_ACTION"
         }
     },
-    "mira-join": {
+    "mirabelle-join": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
         "eventType": "PARALLEL",
@@ -377,7 +377,7 @@
             "clearSide": false,
             "type": "ADD_MSG_PERSON",
             "person": {
-                "person": "mod.mira",
+                "person": "mirabelle",
                 "expression": "DEFAULT"
             }
         }, {
@@ -396,11 +396,11 @@
             "autoContinue": false,
             "type": "SHOW_MSG",
             "person": {
-                "person": "mod.mira",
+                "person": "mirabelle",
                 "expression": "SMILE"
             }
         }, {
-            "member": "Mira",
+            "member": "Mirabelle",
             "skipEffect": false,
             "type": "ADD_PARTY_MEMBER"
         }, {
@@ -409,12 +409,12 @@
         }],
         "loopCount": 1,
         "type": {
-            "member": "Mira",
+            "member": "Mirabelle",
             "actionType": "PARTY_JOIN",
             "type": "SOCIAL_ACTION"
         }
     },
-    "mira-equip-update": {
+    "mirabelle-equip-update": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
         "eventType": "PARALLEL",
@@ -425,19 +425,19 @@
             },
             "type": "SHOW_SIDE_MSG",
             "person": {
-                "person": "mod.mira",
+                "person": "mirabelle",
                 "expression": "AWESOME"
             }
         }],
         "loopCount": 1,
         "type": {
-            "member": "Mira",
+            "member": "Mirabelle",
             "eventType": "EQUIP_UPDATE",
             "actionType": "PARTY_JOIN",
             "type": "PARTY_MEMBER_EVENT"
         }
     },
-    "mira-remove": {
+    "mirabelle-remove": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
         "eventType": "PARALLEL",
@@ -453,7 +453,7 @@
             "clearSide": false,
             "type": "ADD_MSG_PERSON",
             "person": {
-                "person": "mod.mira",
+                "person": "mirabelle",
                 "expression": "DEFAULT"
             }
         }, {
@@ -472,11 +472,11 @@
             "autoContinue": false,
             "type": "SHOW_MSG",
             "person": {
-                "person": "mod.mira",
+                "person": "mirabelle",
                 "expression": "SMILE"
             }
         }, {
-            "member": "Mira",
+            "member": "Mirabelle",
             "skipEffect": false,
             "type": "REMOVE_PARTY_MEMBER"
         }, {
@@ -485,12 +485,12 @@
         }],
         "loopCount": 1,
         "type": {
-            "member": "Mira",
+            "member": "Mirabelle",
             "actionType": "PARTY_LEAVE",
             "type": "SOCIAL_ACTION"
         }
     },
-    "mira-dies": {
+    "mirabelle-dies": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
         "eventType": "PARALLEL",
@@ -508,7 +508,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "PAIN"
                 }
             }],
@@ -518,7 +518,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "EXHAUSTED"
                 }
             }],
@@ -528,19 +528,19 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SHOCKED"
                 }
             }]
         }],
         "loopCount": 1,
         "type": {
-            "member": "Mira",
+            "member": "Mirabelle",
             "eventType": "DIES",
             "type": "PARTY_MEMBER_EVENT"
         }
     },
-    "mira-revived": {
+    "mirabelle-revived": {
         "frequency": "ALWAYS",
         "repeat": "REPEAT",
         "eventType": "PARALLEL",
@@ -558,7 +558,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "ANGRY"
                 }
             }],
@@ -568,7 +568,7 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "THOUGHTFUL"
                 }
             }],
@@ -578,14 +578,14 @@
                 },
                 "type": "SHOW_SIDE_MSG",
                 "person": {
-                    "person": "mod.mira",
+                    "person": "mirabelle",
                     "expression": "SMILE"
                 }
             }]
         }],
         "loopCount": 1,
         "type": {
-            "member": "Mira",
+            "member": "Mirabelle",
             "eventType": "REVIVED",
             "type": "PARTY_MEMBER_EVENT"
         }
