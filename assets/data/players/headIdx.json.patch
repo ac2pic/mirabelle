@@ -5,6 +5,6 @@
 	"type": "ADD_ARRAY_ELEMENT",
 	"content": {
 		"id": "mod.mira",
-		"img" : "media/gui/severed-heads/mira.png"
+		"img" : "media/gui/mirabelle/severed-head.png"
 	}
 }]

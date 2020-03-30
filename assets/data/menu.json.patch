@@ -3,7 +3,7 @@
 	"content": {
 		"DOCTYPE":"MENU_GUI_CONFIG",
 		"name": "Mira",
-		"gfx": "media/gui/menu-mirabelle.png",
+		"gfx": "media/gui/mirabelle/menu.png",
 		"Large": {
 			"gfxOffX": -32,
 			"gfxOffY": -13,
