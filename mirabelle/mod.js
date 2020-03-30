@@ -70,4 +70,32 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
             return true
         }
     });
+
+    sc.STAT_CHANGE_SETTINGS["DEFENSE-MINUS-TINY"] = {
+        change: sc.STAT_CHANGE_TYPE.STATS,
+        type: sc.STAT_PARAM_TYPE.DEFENSE,
+        value: 0.9,
+        negative: true,
+        icon: "stat-defense",
+        grade: "stat-rank-down-1"
+    };
+    
+    sc.STAT_CHANGE_SETTINGS["ATTACK-MINUS-TINY"] = {
+        change: sc.STAT_CHANGE_TYPE.STATS,
+        type: sc.STAT_PARAM_TYPE.ATTACK,
+        value: 0.9,
+        negative: true,
+        icon: "stat-attack",
+        grade: "stat-rank-down-1"
+    };
+    
+    sc.STAT_CHANGE_SETTINGS["FOCUS-MINUS-TINY"] = {
+        change: sc.STAT_CHANGE_TYPE.STATS,
+        type: sc.STAT_PARAM_TYPE.FOCUS,
+        value: 0.9,
+        negative: true,
+        icon: "stat-focus",
+        grade: "stat-rank-down-1"
+    };
+    
 });
