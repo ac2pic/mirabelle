@@ -1,8 +1,8 @@
 {
-  "name": "mirabelle",
-  "prestart": "mod.js",
-  "version": "1.0.0",
-  "dependencies": {
-    "party-player": "1.x.x"
-  }
+    "name": "mirabelle",
+    "prestart": "mod.js",
+    "version": "1.0.0",
+    "dependencies": {
+        "party-player": "1.x.x"
+    }
 }

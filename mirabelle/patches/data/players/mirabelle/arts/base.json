@@ -1,193 +1,162 @@
 {
-	"actions":{
-		"BASE":{
-			"GUARD":{
-		    "steps":[
-	        {
-		        "followUp":"guard",
-		        "wait":false,
-		        "viaWalkConfig":false,
-		        "type":"SHOW_ANIMATION",
-		        "anim":"preIdle"
-	        },
-	        {
-		        "perfectGuard":false,
-		        "type":"ADD_PLAYER_SHIELD"
-	        },
-	        {
-		        "time":-1,
-		        "type":"WAIT"
-	        }
-		    ]
-			},
-			"PERFECT_GUARD":{
-		    "steps":[
-				{
-				  "wait":false,
-				  "viaWalkConfig":false,
-				  "type":"SHOW_ANIMATION",
-				  "anim":"guard"
-				},
-				{
-				  "duration":0,
-				  "align":"BOTTOM",
-				  "rotateFace":0,
-				  "flipLeftFace":false,
-				  "wait":false,
-				  "waitSkip":0,
-				  "actionDetached":false,
-				  "fixPos":false,
-				  "type":"SHOW_EFFECT",
-				  "effect":{
-						"sheet":"guard",
-						"name":"perfectGuardStart"
-				  }
-				},
-				{
-				  "perfectGuard":true,
-				  "type":"ADD_PLAYER_SHIELD"
-				},
-				{
-				  "time":-1,
-				  "type":"WAIT"
-				}
-		    ]
-			},
-      "DASH":{
-        "dmgType":"",
-        "stunType":"",
-        "status":false,
-        "steps":[
-          {
-            "volume":0.9,
-            "global":false,
-            "loop":false,
-            "type":"PLAY_SOUND",
-            "sound":"media/sound/battle/dash-3.ogg"
-          },
-          {
-            "factor":1,
-            "type":"SET_PLAYER_INVINCIBLE"
-          },
-          {
-            "wait":false,
-            "viaWalkConfig":false,
-            "type":"SHOW_ANIMATION",
-            "anim":"idle"
-          },
-          {
-          	"followUp":"aimMove",
-            "wait":false,
-            "viaWalkConfig":false,
-            "type":"SHOW_ANIMATION",
-            "anim":"spinFull"
-          },
-          {
-            "value":false,
-            "type":"SET_JUMPING"
-          },
-          {
-            "value":320,
-            "type":"SET_SPEED"
-          },
-          {
-            "value":2,
-            "type":"SET_ACCEL_SPEED"
-          },
-          {
-            "value":"IGNORE",
-            "type":"SET_COLL_TYPE"
-          },
-          {
-            "duration":0.2,
-            "align":"BOTTOM",
-            "rotateFace":0,
-            "flipLeftFace":false,
-            "wait":false,
-            "waitSkip":0,
-            "actionDetached":false,
-            "fixPos":false,
-            "type":"SHOW_EFFECT",
-            "effect":{
-              "sheet":"dust",
-              "name":"line"
+    "actions": {
+        "BASE": {
+            "GUARD": {
+                "steps": [{
+                    "followUp": "guard",
+                    "wait": false,
+                    "viaWalkConfig": false,
+                    "type": "SHOW_ANIMATION",
+                    "anim": "preIdle"
+                }, {
+                    "perfectGuard": false,
+                    "type": "ADD_PLAYER_SHIELD"
+                }, {
+                    "time": -1,
+                    "type": "WAIT"
+                }]
             },
-            "offset":{
-              "x":0,
-              "y":3,
-              "z":6
+            "PERFECT_GUARD": {
+                "steps": [{
+                    "wait": false,
+                    "viaWalkConfig": false,
+                    "type": "SHOW_ANIMATION",
+                    "anim": "guard"
+                }, {
+                    "duration": 0,
+                    "align": "BOTTOM",
+                    "rotateFace": 0,
+                    "flipLeftFace": false,
+                    "wait": false,
+                    "waitSkip": 0,
+                    "actionDetached": false,
+                    "fixPos": false,
+                    "type": "SHOW_EFFECT",
+                    "effect": {
+                        "sheet": "guard",
+                        "name": "perfectGuardStart"
+                    }
+                }, {
+                    "perfectGuard": true,
+                    "type": "ADD_PLAYER_SHIELD"
+                }, {
+                    "time": -1,
+                    "type": "WAIT"
+                }]
+            },
+            "DASH": {
+                "dmgType": "",
+                "stunType": "",
+                "status": false,
+                "steps": [{
+                    "volume": 0.9,
+                    "global": false,
+                    "loop": false,
+                    "type": "PLAY_SOUND",
+                    "sound": "media/sound/battle/dash-3.ogg"
+                }, {
+                    "factor": 1,
+                    "type": "SET_PLAYER_INVINCIBLE"
+                }, {
+                    "wait": false,
+                    "viaWalkConfig": false,
+                    "type": "SHOW_ANIMATION",
+                    "anim": "idle"
+                }, {
+                    "followUp": "aimMove",
+                    "wait": false,
+                    "viaWalkConfig": false,
+                    "type": "SHOW_ANIMATION",
+                    "anim": "spinFull"
+                }, {
+                    "value": false,
+                    "type": "SET_JUMPING"
+                }, {
+                    "value": 320,
+                    "type": "SET_SPEED"
+                }, {
+                    "value": 2,
+                    "type": "SET_ACCEL_SPEED"
+                }, {
+                    "value": "IGNORE",
+                    "type": "SET_COLL_TYPE"
+                }, {
+                    "duration": 0.2,
+                    "align": "BOTTOM",
+                    "rotateFace": 0,
+                    "flipLeftFace": false,
+                    "wait": false,
+                    "waitSkip": 0,
+                    "actionDetached": false,
+                    "fixPos": false,
+                    "type": "SHOW_EFFECT",
+                    "effect": {
+                        "sheet": "dust",
+                        "name": "line"
+                    },
+                    "offset": {
+                        "x": 0,
+                        "y": 3,
+                        "z": 6
+                    }
+                }, {
+                    "dir": {
+                        "actorAttrib": "dashDir"
+                    },
+                    "time": 0.05,
+                    "stopBeforeEdge": false,
+                    "type": "MOVE_TO_DIR"
+                }, {
+                    "value": "VIRTUAL",
+                    "type": "SET_COLL_TYPE"
+                }, {
+                    "dir": {
+                        "actorAttrib": "dashDir"
+                    },
+                    "time": 0.11,
+                    "stopBeforeEdge": false,
+                    "type": "MOVE_TO_DIR"
+                }, {
+                    "time": 0.2,
+                    "type": "WAIT"
+                }]
+            },
+            "DASH_SLOW": {
+                "dmgType": "",
+                "stunType": "",
+                "status": false,
+                "steps": [{
+                    "wait": false,
+                    "viaWalkConfig": false,
+                    "type": "SHOW_ANIMATION",
+                    "anim": "idle"
+                }, {
+                    "followUp": "aimMove",
+                    "wait": false,
+                    "viaWalkConfig": false,
+                    "type": "SHOW_ANIMATION",
+                    "anim": "spinFull"
+                }, {
+                    "value": false,
+                    "type": "SET_JUMPING"
+                }, {
+                    "value": 160,
+                    "type": "SET_SPEED"
+                }, {
+                    "value": 2,
+                    "type": "SET_ACCEL_SPEED"
+                }, {
+                    "dir": {
+                        "actorAttrib": "dashDir"
+                    },
+                    "time": 0.12,
+                    "stopBeforeEdge": false,
+                    "type": "MOVE_TO_DIR"
+                }, {
+                    "time": 0.24,
+                    "type": "WAIT"
+                }]
             }
-          },
-          {
-            "dir":{
-              "actorAttrib":"dashDir"
-            },
-            "time":0.05,
-            "stopBeforeEdge":false,
-            "type":"MOVE_TO_DIR"
-          },
-          {
-            "value":"VIRTUAL",
-            "type":"SET_COLL_TYPE"
-          },
-          {
-            "dir":{
-              "actorAttrib":"dashDir"
-            },
-            "time":0.11,
-            "stopBeforeEdge":false,
-            "type":"MOVE_TO_DIR"
-          },
-          {
-            "time":0.2,
-            "type":"WAIT"
-          }
-        ]
-      },
-      "DASH_SLOW":{
-        "dmgType":"",
-        "stunType":"",
-        "status":false,
-        "steps":[
-          {
-            "wait":false,
-            "viaWalkConfig":false,
-            "type":"SHOW_ANIMATION",
-            "anim":"idle"
-          },
-          {
-            "followUp":"aimMove",
-            "wait":false,
-            "viaWalkConfig":false,
-            "type":"SHOW_ANIMATION",
-            "anim":"spinFull"
-          },
-          {
-            "value":false,
-            "type":"SET_JUMPING"
-          },
-          {
-            "value":160,
-            "type":"SET_SPEED"
-          },
-          {
-            "value":2,
-            "type":"SET_ACCEL_SPEED"
-          },
-          {
-            "dir":{
-              "actorAttrib":"dashDir"
-            },
-            "time":0.12,
-            "stopBeforeEdge":false,
-            "type":"MOVE_TO_DIR"
-          },
-          {
-            "time":0.24,
-            "type":"WAIT"
-          }
-        ]
-      }
-		}
-	}
+        }
+    }
 }
