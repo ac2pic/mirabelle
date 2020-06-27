@@ -1,11 +1,8 @@
-sc.PARTY_OPTIONS.push("Mirabelle");
-
-
-ig.module("game.feature.player.entities.player-hexa").requires("game.feature.player.entities.player").defines(function() {
+ig.module("game.feature.player.entities.player-hexa").requires("game.feature.player.entities.player").defines(function () {
     sc.PLAYER_ZOOM = 1;
 
     ig.ENTITY.Player.inject({
-        startCharge: function(a) {
+        startCharge: function (a) {
             if (this.animSheet && this.animSheet.path === 'npc.mirabelle') {
                 var art = this.model.getCombatArt(this.model.currentElementMode, `${a.actionKey}1_A`)
                 if (art && art.needsTarget) {
@@ -21,7 +18,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
             }
             return this.parent(a);
         },
-        update: function() {
+        update: function () {
             if (this.animSheet && this.animSheet.path === 'npc.mirabelle' && this.lockTimer > 0) {
                 this.lockTimer = this.lockTimer - ig.system.tick;
                 if (this.lockTimer <= 0 && this.lockTimer !== -1) {
@@ -35,7 +32,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
                 this.target = null;
             }
         },
-        startCloseCombatAction: function(a, b) {
+        startCloseCombatAction: function (a, b) {
             if (this.attackCounter > 1 && this.animSheet && this.animSheet.path === 'npc.mirabelle') {
                 b.melee = true;
                 a = "ATTACK_FINISHER";
@@ -43,7 +40,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
             }
             this.parent(a, b);
         },
-        onTargetHit: function(a, b, c, d) {
+        onTargetHit: function (a, b, c, d) {
             if (this.animSheet && this.animSheet.path === 'npc.mirabelle') {
                 this.target = a;
                 if (this.lockTimer < 2.0 && this.lockTimer !== -1) {
@@ -55,7 +52,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
     });
 
     ig.ACTION_STEP.FACE_TO_TARGET.inject({
-        run: function(a) {
+        run: function (a) {
             if (a.isPlayer && !a.tempTarget && a.animSheet && a.animSheet.path === 'npc.mirabelle') {
                 return true;
             }
@@ -79,7 +76,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
         icon: "stat-defense",
         grade: "stat-rank-down-1"
     };
-    
+
     sc.STAT_CHANGE_SETTINGS["ATTACK-MINUS-TINY"] = {
         change: sc.STAT_CHANGE_TYPE.STATS,
         type: sc.STAT_PARAM_TYPE.ATTACK,
@@ -88,7 +85,7 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
         icon: "stat-attack",
         grade: "stat-rank-down-1"
     };
-    
+
     sc.STAT_CHANGE_SETTINGS["FOCUS-MINUS-TINY"] = {
         change: sc.STAT_CHANGE_TYPE.STATS,
         type: sc.STAT_PARAM_TYPE.FOCUS,
@@ -97,5 +94,5 @@ ig.module("game.feature.player.entities.player-hexa").requires("game.feature.pla
         icon: "stat-focus",
         grade: "stat-rank-down-1"
     };
-    
+
 });
