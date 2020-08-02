@@ -5,6 +5,6 @@
     "version": "1.0.0",
     "dependencies": {
         "cc-custom-character-toolkit": "1.x.x",
-        "utility-resource-organizer": "1.0.0"
+        "utility-resource-organizer": "1.x.x"
     }
 }
