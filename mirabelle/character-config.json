@@ -1,5 +1,5 @@
 {
-	"DOCTYPE": "MENU_GUI_CONFIG",
+	"DOCTYPE": "CUSTOM_CHARACTER_CONFIG",
 	"name": "Mirabelle",
 	"severed-head": "media/gui/mirabelle/severed-head.png",
 	"gfx": "media/gui/mirabelle/menu.png",
