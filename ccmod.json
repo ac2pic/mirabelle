@@ -4,7 +4,7 @@
     "prestart": "mod.js",
     "version": "1.0.0",
     "dependencies": {
-        "cc-custom-character-toolkit": "1.x.x",
+        "char-toolkit": "1.x.x",
         "utility-resource-organizer": "1.x.x"
     }
 }
